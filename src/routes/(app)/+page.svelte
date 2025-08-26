@@ -6,7 +6,7 @@
 	/>
 </svelte:head>
 
-<section class="h-120 bg-hero bg-cover bg-center bg-no-repeat md:h-dvh md:min-h-180">
+<section class="h-dvh bg-hero bg-cover bg-center bg-no-repeat">
 	<div class="wrapper flex flex-col justify-end space-y-4 lg:flex-row lg:items-end lg:space-y-0 lg:justify-between">
 		<div class="flex flex-col gap-y-2">
 			<p class="max-w-[43ch]">

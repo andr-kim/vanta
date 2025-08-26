@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Home | Vanta Studio</title>
+	<title>Homepage | Vanta Studio</title>
 	<meta
 		name="description"
 		content="Vanta: создаем архитектурные проекты, которые преобразуют пространство и впечатляют. Дизайн интерьеров, урбанистика и индивидуальные решения."

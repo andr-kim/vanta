@@ -11,7 +11,7 @@ const config = {
 			base: dev ? '' : '/vanta'
 		},
 		prerender: {
-			entries: ['/vanta'] // ⚡️ говорим, что корневой путь = /vanta
+			entries: ['*'] // ⚡️ пусть сканит все страницы, не указываем /vanta вручную
 		}
 	}
 };

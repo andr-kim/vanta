@@ -2,8 +2,8 @@ name: Deploy SvelteKit to GitHub Pages
 
 on:
   push:
-    branches: [ "main" ]   # 🚀 деплой только при пуше/мерже в main
-  workflow_dispatch:        # ✋ запуск руками (например, если нужно перегнать билд)
+    branches: [ "main" ]   # деплой только на пуш/мердж в main
+  workflow_dispatch:        # возможность запустить вручную из Actions
 
 permissions:
   contents: read

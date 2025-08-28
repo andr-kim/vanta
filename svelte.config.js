@@ -5,11 +5,13 @@ const dev = process.argv.includes('dev');
 
 const config = {
 	preprocess: vitePreprocess(),
-
 	kit: {
 		adapter: adapter(),
 		paths: {
-			base: dev ? '' : '/vanta' // ⚡ имя твоего репозитория
+			base: dev ? '' : '/vanta'
+		},
+		prerender: {
+			entries: ['/vanta'] // ⚡️ говорим, что корневой путь = /vanta
 		}
 	}
 };
